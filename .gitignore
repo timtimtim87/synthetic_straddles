@@ -1,0 +1,32 @@
+echo "# Output files
+*.png
+*.csv
+*.html
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+.vscode/
+.idea/
+
+# Data
+data/
+output/
+results/
+
+# Environment
+.env
+.venv/
+venv/" > .gitignore
+
+git add .gitignore
+git commit -m "Add comprehensive gitignore"
+git push origin main
