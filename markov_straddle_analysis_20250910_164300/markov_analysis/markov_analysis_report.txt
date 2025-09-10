@@ -1,0 +1,64 @@
+STRADDLE MARKOV ANALYSIS REPORT
+==================================================
+
+Analysis Date: 2025-09-10 16:43:00
+Assets Analyzed: 89
+
+SUMMARY STATISTICS:
+--------------------
+Average P(Win|Previous Win): 0.847
+Average P(Win|Previous Loss): 0.647
+Assets with Momentum Tendency: 68
+Assets with Mean Reversion Tendency: 20
+
+TOP 10 MOMENTUM ASSETS (Wins/Losses tend to cluster):
+--------------------------------------------------
+ 1.    PEP: Momentum=+0.717, P(Win|Win)=0.917, WR=0.800
+ 2.      T: Momentum=+0.716, P(Win|Win)=0.882, WR=0.600
+ 3.    UPS: Momentum=+0.652, P(Win|Win)=0.833, WR=0.600
+ 4.    NEE: Momentum=+0.628, P(Win|Win)=0.962, WR=0.900
+ 5.    MCK: Momentum=+0.580, P(Win|Win)=0.913, WR=0.800
+ 6.   UBER: Momentum=+0.517, P(Win|Win)=0.917, WR=0.833
+ 7.    LIN: Momentum=+0.517, P(Win|Win)=0.917, WR=0.833
+ 8.   SPGI: Momentum=+0.463, P(Win|Win)=0.963, WR=0.933
+ 9.   PLTR: Momentum=+0.463, P(Win|Win)=0.963, WR=0.933
+10.   META: Momentum=+0.435, P(Win|Win)=0.864, WR=0.767
+
+TOP 10 MEAN REVERSION ASSETS (Outcomes tend to alternate):
+-------------------------------------------------------
+ 1.     PG: MeanRev=+0.250, P(Win|Loss)=1.000, WR=0.800
+ 2.    HON: MeanRev=+0.208, P(Win|Loss)=1.000, WR=0.833
+ 3.   TSLA: MeanRev=+0.160, P(Win|Loss)=1.000, WR=0.867
+ 4.   MSFT: MeanRev=+0.120, P(Win|Loss)=1.000, WR=0.867
+ 5.    ACN: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+ 6.    MSI: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+ 7.   AVGO: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+ 8.    LOW: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+ 9.   NFLX: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+10.    PGR: MeanRev=+0.115, P(Win|Loss)=1.000, WR=0.900
+
+TOP 10 WIN PERSISTENCE (High P(Win|Previous Win)):
+---------------------------------------------
+ 1.    GEV: P(Win|Win)=1.000, Trades=30
+ 2.   INTU: P(Win|Win)=0.964, Trades=30
+ 3.   PLTR: P(Win|Win)=0.963, Trades=30
+ 4.   SPGI: P(Win|Win)=0.963, Trades=30
+ 5.      V: P(Win|Win)=0.963, Trades=30
+ 6.    NEE: P(Win|Win)=0.962, Trades=30
+ 7.   DELL: P(Win|Win)=0.926, Trades=30
+ 8.    UNH: P(Win|Win)=0.926, Trades=30
+ 9.   CRWD: P(Win|Win)=0.926, Trades=30
+10.   DASH: P(Win|Win)=0.926, Trades=30
+
+TOP 10 LOSS RECOVERY (High P(Win|Previous Loss)):
+---------------------------------------------
+ 1.    HON: P(Win|Loss)=1.000, Trades=30
+ 2.   CRWD: P(Win|Loss)=1.000, Trades=30
+ 3.   COST: P(Win|Loss)=1.000, Trades=30
+ 4.   MSFT: P(Win|Loss)=1.000, Trades=30
+ 5.    MSI: P(Win|Loss)=1.000, Trades=30
+ 6.   NFLX: P(Win|Loss)=1.000, Trades=30
+ 7.    NOW: P(Win|Loss)=1.000, Trades=30
+ 8.     HD: P(Win|Loss)=1.000, Trades=30
+ 9.     PG: P(Win|Loss)=1.000, Trades=30
+10.    PGR: P(Win|Loss)=1.000, Trades=30

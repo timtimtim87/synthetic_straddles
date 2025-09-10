@@ -1,0 +1,24 @@
+EARLY EXIT STRADDLE ANALYSIS RUN SUMMARY
+==================================================
+
+Run Time: 2025-09-10 16:27:30
+Assets Processed: 89/89 (100.0%)
+Total Periods: 2670
+Early Exits: 1287 (48.2%)
+Total Data Points: 529,823
+
+Performance Summary:
+  Overall Average Return: +20.5%
+  Early Exit Average Return: +39.6%
+  Expiry Average Return: +2.8%
+  Overall Win Rate: 80.2%
+  Average Days Held (Early Exit): 131
+  Average Time Saved: 234 days
+
+Strategy Parameters:
+  strike_multiplier: 1.25
+  implied_volatility: 0.25
+  risk_free_rate: 0.04
+  days_to_expiry: 365
+  frequency_months: 6
+  exit_buffer: 0.02

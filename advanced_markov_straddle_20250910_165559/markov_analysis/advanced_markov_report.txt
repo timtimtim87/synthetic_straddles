@@ -1,0 +1,137 @@
+ADVANCED STRADDLE MARKOV ANALYSIS REPORT
+============================================================
+
+Analysis Date: 2025-09-10 16:55:59
+
+PERFORMANCE STATE DISTRIBUTION:
+-----------------------------------
+BIG_WIN_SLOW        :  536 ( 20.1%)
+GOOD_WIN_SLOW       :  535 ( 20.0%)
+REGULAR_LOSS        :  396 ( 14.8%)
+MEDIUM_WIN_SLOW     :  353 ( 13.2%)
+SMALL_WIN_SLOW      :  316 ( 11.8%)
+SMALL_WIN_QUICK     :  220 (  8.2%)
+MEDIUM_WIN_QUICK    :  182 (  6.8%)
+BIG_DRAWDOWN        :  132 (  4.9%)
+
+Profit Quartile Thresholds:
+Q1 (Small Win): 0% to 22.5%
+Q2 (Medium Win): 22.5% to 35.9%
+Q3 (Good Win): 35.9% to 53.9%
+Q4 (Big Win): 53.9%+
+Big Drawdown Threshold: -74.4% or worse
+
+DRAWDOWN RECOVERY ANALYSIS:
+------------------------------
+Total assets with drawdowns: 60
+Average recovery rate: 48.4%
+Average quick recovery rate: 12.3%
+Average strong recovery rate: 28.9%
+Average recovery return: +24.7%
+Average recovery time: 121 days
+
+Top 10 Assets by Recovery Rate:
+ 1.   AAPL: 100.0% recovery, +55.1% avg return, 252 days
+ 2.   ABBV: 100.0% recovery,  +8.7% avg return, 262 days
+ 3.    ACN: 100.0% recovery, +43.8% avg return, 261 days
+ 4.   CRWD: 100.0% recovery, +24.1% avg return,  70 days
+ 5.   DASH: 100.0% recovery, +34.2% avg return, 261 days
+ 6.   DELL: 100.0% recovery, +86.5% avg return, 256 days
+ 7.  GOOGL: 100.0% recovery, +20.7% avg return, 261 days
+ 8.    IBM: 100.0% recovery,  +6.2% avg return, 261 days
+ 9.   INTU: 100.0% recovery, +54.1% avg return, 261 days
+10.    MCK: 100.0% recovery, +14.7% avg return, 261 days
+
+Top 10 Assets by Quick Recovery Rate:
+ 1.   CRWD: 100.0% quick recovery,  1 drawdowns
+ 2.   NFLX: 100.0% quick recovery,  2 drawdowns
+ 3.   NVDA: 100.0% quick recovery,  2 drawdowns
+ 4.   TMUS: 100.0% quick recovery,  1 drawdowns
+ 5.   UBER:  66.7% quick recovery,  3 drawdowns
+ 6.    DIS:  50.0% quick recovery,  2 drawdowns
+ 7.   TSLA:  50.0% quick recovery,  2 drawdowns
+ 8.   AMZN:  33.3% quick recovery,  3 drawdowns
+ 9.     MS:  33.3% quick recovery,  3 drawdowns
+10.   AMAT:  25.0% quick recovery,  4 drawdowns
+
+WIN QUALITY TRANSITION ANALYSIS:
+-----------------------------------
+After different win types, what happens next:
+
+Small Wins:
+  Assets with this pattern: 87
+  Next profit rate: 79.2%
+  Next quick win rate: 13.4%
+  Next big win rate: 63.2%
+  Avg next return: +20.5%
+  Avg next days: 206
+
+Medium Wins:
+  Assets with this pattern: 89
+  Next profit rate: 75.7%
+  Next quick win rate: 15.6%
+  Next big win rate: 60.1%
+  Avg next return: +17.1%
+  Avg next days: 198
+
+Good Wins:
+  Assets with this pattern: 85
+  Next profit rate: 86.6%
+  Next quick win rate: 24.8%
+  Next big win rate: 68.8%
+  Avg next return: +26.9%
+  Avg next days: 177
+
+Big Wins:
+  Assets with this pattern: 86
+  Next profit rate: 93.9%
+  Next quick win rate: 19.2%
+  Next big win rate: 85.6%
+  Avg next return: +33.5%
+  Avg next days: 164
+
+KEY WIN QUALITY INSIGHTS:
+→ BIG WINS tend to be followed by MORE profits (Success breeds success)
+→ BIG WINS tend to be followed by BIGGER next returns
+
+MOMENTUM ANALYSIS:
+--------------------
+Assets analyzed: 89
+Average momentum score: 0.211
+Average return correlation: +0.208
+Assets with positive momentum (>0.2): 43
+Assets with mean reversion (<-0.1): 0
+Average max profit streak: 11.9
+Average max loss streak: 2.3
+
+Top 10 Assets by Momentum Score:
+ 1.    UPS: 0.649 momentum, +0.602 correlation, 9 max streak
+ 2.   PLTR: 0.618 momentum, +0.331 correlation, 23 max streak
+ 3.   UBER: 0.550 momentum, +0.529 correlation, 18 max streak
+ 4.    JPM: 0.472 momentum, +0.244 correlation, 7 max streak
+ 5.    GEV: 0.404 momentum, +0.314 correlation, 30 max streak
+ 6.   DELL: 0.377 momentum, +0.045 correlation, 23 max streak
+ 7.     MU: 0.375 momentum, +0.351 correlation, 5 max streak
+ 8.   ADBE: 0.372 momentum, +0.376 correlation, 20 max streak
+ 9.   ABBV: 0.370 momentum, +0.363 correlation, 10 max streak
+10.    XOM: 0.362 momentum, +0.345 correlation, 8 max streak
+
+Top 10 Mean Reverting Assets:
+ 1.   MSFT: -0.083 momentum, -0.319 correlation
+ 2.   AVGO: -0.005 momentum, -0.051 correlation
+ 3.    CRM: 0.023 momentum, +0.036 correlation
+ 4.   INTU: 0.027 momentum, -0.022 correlation
+ 5.   COST: 0.037 momentum, -0.028 correlation
+ 6.   SNPS: 0.062 momentum, +0.048 correlation
+ 7.    SYK: 0.068 momentum, -0.004 correlation
+ 8.    HON: 0.075 momentum, +0.051 correlation
+ 9.     PG: 0.075 momentum, +0.123 correlation
+10.    MCD: 0.077 momentum, +0.059 correlation
+
+SUMMARY INSIGHTS:
+--------------------
+1. DRAWDOWN RECOVERY: Weak - Drawdowns often followed by more poor performance
+2. RECOVERY SPEED: Slow - Recoveries take time to materialize
+3. OVERALL PATTERN: Strong MOMENTUM - Performance tends to cluster
+
+Analysis completed: 2025-09-10 16:55:59
